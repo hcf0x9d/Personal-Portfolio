@@ -1,0 +1,16 @@
+.section-marker{
+	background: $color-green;
+	display: inline-block;
+	padding: 20px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+
+	&.mod-left{}
+	&.mod-right{}
+}
+
+.section-title{
+
+	&.mod-right{
+		text-align: right;
+	}
+}

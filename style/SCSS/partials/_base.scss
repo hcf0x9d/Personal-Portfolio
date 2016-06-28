@@ -1,0 +1,16 @@
+html{
+	background: $color-white;
+	color: $color-grayDk;
+	font: normal 1em/1.8em $font-pn--reg;
+}
+
+.site{
+	&-head{
+		&-title{
+
+			&.mod-assist{}
+		}
+	}
+}
+
+.expo{}

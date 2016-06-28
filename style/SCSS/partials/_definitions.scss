@@ -1,0 +1,30 @@
+
+$color-grayDk:	#5E5E5E;
+$color-gray:		#C1C1C1;
+
+$color-green:   #00FDBB;
+$color-greenDk: #00D39C;
+
+$color-yellow:  #FDEC00;
+
+$color-white:		#F5F5F5;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+@mixin transition($effects) {
+  -webkit-transition: $effects;
+     -moz-transition: $effects;
+       -o-transition: $effects;
+          transition: $effects;
+}
+
+@mixin transform($vals) {
+  -webkit-transform: $vals;
+     -moz-transform: $vals;
+       -o-transform: $vals;
+          transform: $vals;
+}

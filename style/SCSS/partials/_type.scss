@@ -1,16 +1,39 @@
+
 .section-marker{
 	background: $color-green;
+	box-shadow: 0 30px 90px rgba(0,0,0,0.3);
 	display: inline-block;
+	font: normal 2rem/1em $font-pn--reg;
 	padding: 20px;
-	box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+	position: absolute;
+	top: 0;
+	width: 50%;
+	z-index: 10;
 
-	&.mod-left{}
-	&.mod-right{}
+	&.mod-left{
+		left: -40px;
+	}
+	&.mod-right{
+		right: -40px;
+	}
 }
 
 .section-title{
+	font: normal 2.25rem/1.2em $font-pn--reg;
 
 	&.mod-right{
 		text-align: right;
 	}
+}
+
+.subheadline{
+	font: normal 1.625em/1.2em $font-pn--reg;
+
+	&.mod-help{
+		color: $color-gray;
+	}
+}
+
+p + p{
+	margin-top: 1em;
 }

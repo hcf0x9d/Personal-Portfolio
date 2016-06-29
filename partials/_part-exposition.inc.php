@@ -1,22 +1,33 @@
 <header class="site">
-	<nav class="sitenav"></nav>
+	<nav class="sitenav container">
+		<ul class="sitenav-list row">
+			<li class="sitenav-list-item">
+				<span class="sitenav-brand">Jason Fukura</span>
+			</li>
+			<li class="sitenav-list-item">
+				<a href="#" class="sitenav-list-item-target">Target</a>
+			</li>
+		</ul>
+	</nav>
 
 	<section class="site-head container">
-		<div class="site-head-1">
-			<!-- Image -->
-		</div>
-		<div class="site-head-2">
-			<!-- Title Stuff -->
-			<h1 class="site-head-title">
-				<span class="mod-assist">Jason Fukura</span>
-				User Experience &amp; Web Development
-			</h1>
+		<div class="row">
+			<div class="col-md-7">
+				<img class="site-head-img" src="http://placehold.it/800x500" alt="" height="400">
+			</div>
+			<div class="col-md-5 col-md-pull-1 js-row-height">
+				<!-- Title Stuff -->
+				<h1 class="site-head-title">
+					<span class="mod-assist">Jason Fukura</span>
+					User Experience &amp; Web Development
+				</h1>
+			</div>
 		</div>
 	</section>
 </header>
 
-<section class="expo container">
-	<h2 class="section-marker mod-left">Exposition</h2>
+<section class="expo container section">
+	<h2 class="section-marker mod-left shadowMe">Exposition</h2>
 	<div class="row">
 		<div class="col-md-push-1 col-md-4 col-sm-5">
 			<h1 class="section-title mod-right">
@@ -33,8 +44,7 @@
 		</div>
 		<div class="col-md-push-1 col-md-3 col-sm-push-5 col-sm-7">
 			<p>
-				I am also a professional in the Search Engine Optimization (SEO), infographics and data visualization 
-				field.
+				I am also a professional in Search Engine Optimization (SEO), infographics and data visualization.
 			</p>
 			<p>
 				Outside of the web space, I enjoy working with videography and photography as well as music and art. I’m 

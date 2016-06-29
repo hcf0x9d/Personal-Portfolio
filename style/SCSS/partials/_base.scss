@@ -4,13 +4,96 @@ html{
 	font: normal 1em/1.8em $font-pn--reg;
 }
 
-.site{
-	&-head{
-		&-title{
+.sitenav{
+	display: block;
+	padding-top: 40px;
+	padding-bottom: 40px;
 
-			&.mod-assist{}
+	&-brand{
+		font: normal 2em/1em $font-pn--bold;
+		text-transform: uppercase;
+	}
+
+	&-list{
+		display: block;
+		list-style-type: none;
+
+		&-item{
+			display: block;
+			float: left;
+
+			&-target{
+				text-decoration: none;
+			}
 		}
 	}
 }
 
-.expo{}
+.site{
+	&-head{
+		&-img{
+			display: block;
+		}
+
+		&-title{
+			font: normal 3.25rem/1.2em $font-pn--bold;
+			position: absolute;
+		    top: 50%;
+		    @include transform(translateY(-50%));
+
+			& .mod-assist{
+				display: block;
+				font: normal 2rem/1.2em $font-pn--reg;
+			}
+		}
+	}
+}
+
+.expo{
+	margin-top: -20px;
+}
+
+.section{
+	position: relative;
+	padding-top: 6em;
+	padding-bottom: 4em;
+}
+
+.employment{
+	list-style-type: none;
+	
+	&-item{
+
+	}
+
+	&-year{
+
+	}
+
+	&-info{
+
+	}
+
+	&-tags{
+		display: inline-block;
+		list-style-type: none;
+
+		&-item{
+			display: block;
+			float: left;
+		}
+	}
+}
+
+.skills{
+	background: $color-yellow;
+
+	&-list{
+		list-style-type: none;
+		display: block;
+
+		&-item{
+
+		}
+	}
+}

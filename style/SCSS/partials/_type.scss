@@ -1,7 +1,6 @@
 
 .section-marker{
-	background: $color-green;
-	box-shadow: 0 30px 90px rgba(0,0,0,0.3);
+	background: rgba(0, 253, 187, 0.9);
 	display: inline-block;
 	font: normal 2rem/1em $font-pn--reg;
 	padding: 20px;
@@ -18,6 +17,9 @@
 	}
 }
 
+.mod-small-caps{
+	font-variant: small-caps;
+}
 .section-title{
 	font: normal 2.25rem/1.2em $font-pn--reg;
 

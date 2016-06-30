@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<experience>
+		<company>Capital One Investing</company>
+		<title>Design Technologist</title>
+		<years>
+			<start>2016</start>
+			<end>Now</end>
+		</years>
+		<tags>Web Development, Web Design, Digital Accessibility, User Experience</tags>
+		<description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, fugit.</description>
+	</experience>
+	<experience>
+		<company>Music Prodigy</company>
+		<title>UX &amp; Front-End Developer</title>
+		<years>
+			<start>2016</start>
+			<end>Now</end>
+		</years>
+		<tags>User Experience, Web Development, App Design</tags>
+		<description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, fugit.</description>
+	</experience>
+	<experience>
+		<company>ShareBuilder</company>
+		<title>Web Developer</title>
+		<years>
+			<start>2014</start>
+			<end>2015</end>
+		</years>
+		<tags>Web Design, Web Development, User Experience, Digital Accessibility</tags>
+		<description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, fugit.</description>
+	</experience>
+	<experience>
+		<company>Averetek</company>
+		<title>Creative Lead</title>
+		<years>
+			<start>2011</start>
+			<end>2014</end>
+		</years>
+		<tags>User Experience, Web Design, Web Development, Marketing, Branding</tags>
+		<description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, fugit.</description>
+	</experience>
+	<experience>
+		<company>f/8.3 photography</company>
+		<title>Owner &amp; Photographer</title>
+		<years>
+			<start>2008</start>
+			<end>2012</end>
+		</years>
+		<tags>Photography, Marketing, Photo Processing</tags>
+		<description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, fugit.</description>
+	</experience>
+</root>

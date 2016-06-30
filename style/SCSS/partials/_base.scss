@@ -31,6 +31,8 @@ html{
 
 .site{
 	&-head{
+		position: relative;
+
 		&-img{
 			display: block;
 		}
@@ -46,6 +48,25 @@ html{
 				font: normal 2rem/1.2em $font-pn--reg;
 			}
 		}
+
+		&-fuku{
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 350px;
+			height: 350px;
+			border-radius: 100%;
+			padding: 20px;
+			border: 15px solid $color-yellow;
+			top: 50%;
+			@include transform(translateY(-30%));
+			z-index: -1;
+
+			&-img{
+				display: block;
+				margin-top: 10px;
+			}
+		}
 	}
 }
 
@@ -55,45 +76,69 @@ html{
 
 .section{
 	position: relative;
-	padding-top: 6em;
-	padding-bottom: 4em;
+	padding-top: 9em;
+	padding-bottom: 6em;
 }
 
 .employment{
 	list-style-type: none;
-	
+
 	&-item{
 
 	}
 
 	&-year{
-
+		text-align: right;
 	}
 
 	&-info{
-
+		
+		&-title{
+			color: $color-gray;
+			font-family: $font-pn--lite;
+			font-size: 0.8em;
+			text-transform: uppercase;
+		}
 	}
 
 	&-tags{
 		display: inline-block;
 		list-style-type: none;
+		margin-top: 10px;
 
 		&-item{
+			border: 1px solid;
+			border-radius: 3px;
+			color: $color-gray;
 			display: block;
+			font: normal 0.75em/1em $font-pn--reg;
 			float: left;
+			margin-right: 5px;
+			padding: 5px;
 		}
 	}
 }
 
 .skills{
-	background: $color-yellow;
+	list-style-type: none;
+	display: block;
 
-	&-list{
-		list-style-type: none;
+	&-item{
 		display: block;
+		font: normal 1rem/2 $font-pn--c-bold;
+		position: relative;
+		padding: 2px 5px;
+		margin-bottom: 10px;
+		text-transform: uppercase;
 
-		&-item{
-
+		&-chart{
+			background: $color-yellow;
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 0;
+			z-index: -1;
 		}
 	}
 }

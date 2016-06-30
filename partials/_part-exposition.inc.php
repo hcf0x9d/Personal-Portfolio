@@ -5,7 +5,13 @@
 				<span class="sitenav-brand">Jason Fukura</span>
 			</li>
 			<li class="sitenav-list-item">
-				<a href="#" class="sitenav-list-item-target">Target</a>
+				<a href="#exposition" class="sitenav-list-item-target">Exposition</a>
+			</li>
+			<li class="sitenav-list-item">
+				<a href="#gallery" class="sitenav-list-item-target">Selected Projects</a>
+			</li>
+			<li class="sitenav-list-item">
+				<a href="#resume" class="sitenav-list-item-target">Resume</a>
 			</li>
 		</ul>
 	</nav>
@@ -22,11 +28,14 @@
 					User Experience &amp; Web Development
 				</h1>
 			</div>
+			<div class="site-head-fuku">
+				<img src="images/fuku-seal.svg" alt="" class="site-head-fuku-img">	
+			</div>
 		</div>
 	</section>
 </header>
 
-<section class="expo container section">
+<section id="exposition" class="expo container section">
 	<h2 class="section-marker mod-left shadowMe">Exposition</h2>
 	<div class="row">
 		<div class="col-md-push-1 col-md-4 col-sm-5">

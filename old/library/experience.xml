@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<experience>
+    <job id="mp">
+        <title>UX Designer/Web Developer</title>
+        <company>Music Prodigy</company>
+        <companyurl>http://figureground.agency</companyurl>
+        <year>2015-Present</year>
+        <description>Web design, user experience design &amp; consulting, web development, Search Engine Optimization and even managed hosting plans. That's what figure/ground does. I also maintain the business side of this hobby business of mine.</description>
+        <skills>ux, ui, web, webapp, da, brand, seo, nerf</skills>
+    </job>
+    <job id="figgnd">
+        <title>Creative Professional</title>
+        <company>figure/ground</company>
+        <companyurl>http://figureground.agency</companyurl>
+        <year>2011-Present</year>
+        <description>Web design, user experience design &amp; consulting, web development, Search Engine Optimization and even managed hosting plans. That's what figure/ground does. I also maintain the business side of this hobby business of mine.</description>
+        <skills>ux, ui, web, webapp, da, brand, photo, video, dataviz, seo, nerf</skills>
+    </job>
+    <job id="coi">
+        <title>Senior Web Developer</title>
+        <company>Capital One Investing</company>
+        <companyurl>http://figureground.agency</companyurl>
+        <year>2014-2015</year>
+        <description>Web design, user experience design &amp; consulting, web development, Search Engine Optimization and even managed hosting plans. That's what figure/ground does. I also maintain the business side of this hobby business of mine.</description>
+        <skills>ux, ui, web, webapp, da</skills>
+    </job>
+    <job id="av">
+        <title>Creative Director/User Experience Lead</title>
+        <company>Averetek</company>
+        <companyurl>http://www.averetek.com</companyurl>
+        <year>2011-2014</year>
+        <description>Primary responsibilities include UX and UI design, infographics, project management, web development and branding. Web development languages used include asp, .NET and PHP.</description>
+        <skills>ux, ui, web, webapp, da, brand, photo, video, dataviz, seo, nerf</skills>
+    </job>
+    <job id="f83">
+        <title>Owner/Photographer</title>
+        <company>f/8.3 photography</company>
+        <companyurl>http://www.f83photo.com</companyurl>
+        <year>2009-2013</year>
+        <description>Outside of working as a photographer for weddings, portraits, commercial and food photography jobs, I was also in charge of managing the books, inventory and repairs as well as communications with vendors and clients.</description>
+        <skills>brand, photo, video</skills>
+    </job>
+    <job id="nsd">
+        <title>Music Educator</title>
+        <company>Northshore School District</company>
+        <companyurl>http://www.nsd.org</companyurl>
+        <year>2006-2009</year>
+        <description>Serving as the band and orchestra director, I also led with the elementary music programs and an extracurricular jazz ensemble. During my final year, we added a music technology course.</description>
+        <skills></skills>
+    </job>
+</experience>

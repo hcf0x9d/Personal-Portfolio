@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testimonials>
+    <testimonial>
+        <text>Jason has been an absolute pleasure to work with over the last 1 1/2 years and we value his expertise and work ethic. He understands our business implicitly and works diligently to meet our global brand building needs. We consider Jason a valuable (extended) member of the apaiser global team and looking forward to working closely over the many years to come.</text>
+        <person>Helen Williams</person>
+        <title>Global Marketing Manager</title>
+        <company>apaiser</company>
+    </testimonial>
+    <testimonial>
+        <text>[Jason] far exceeded our expectations with his ability to dive into any project and produce quality results in an efficient manner. Even if it involved technologies he was unfamiliar with, he would take the initiative to learn quickly and produce results.</text>
+        <person>Tim Trimble</person>
+        <title>Support Engineer/SCRUM Master</title>
+        <company>Averetek</company>
+    </testimonial>
+</testimonials>

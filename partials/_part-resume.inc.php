@@ -26,7 +26,7 @@ function resumeBuilder() {
 					<ul class="employment-tags">
 						'.$tagHTML.'
 					</ul>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae modi molestias alias, voluptates vitae corporis in aspernatur dolorem eaque repellat?</p>
+					<p>'.$description.'</p>
 				</div>
 			</li>';
 

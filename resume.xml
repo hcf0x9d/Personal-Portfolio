@@ -8,7 +8,7 @@
 			<end>Now</end>
 		</years>
 		<tags>Web Development, Web Design, Digital Accessibility, User Experience</tags>
-		<description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, fugit.</description>
+		<description>Front-End web development, User Experience Design, jQuery, javascript, HTM5, SASS, CSS3. Created CSS/SCSS development standards and language.  Developed interactive, javascript rich landing pages for marketing.  Wrote several jQuery plugins for use across different marketing pages and the Capital One Investing home page.</description>
 	</experience>
 	<experience>
 		<company>Music Prodigy</company>
@@ -18,7 +18,7 @@
 			<end>Now</end>
 		</years>
 		<tags>User Experience, Web Development, App Design</tags>
-		<description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, fugit.</description>
+		<description>Design for a user-centered app experience for mobile apps on iPhone, Android and iPad - as well as desktop OS.  Take the designs generated and create an intuitive, interactive and enjoyable front-end experience.</description>
 	</experience>
 	<experience>
 		<company>ShareBuilder</company>
@@ -28,7 +28,7 @@
 			<end>2015</end>
 		</years>
 		<tags>Web Design, Web Development, User Experience, Digital Accessibility</tags>
-		<description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, fugit.</description>
+		<description>Designing and developing marketing microsites and landing pages as well as responsive HTML emails. Completed a Digital Accessibility compliance project for web and PDF's, spearheaded implementation of HTML/CSS development methodology based on Object Oriented CSS and established source control system for Brand Creative team</description>
 	</experience>
 	<experience>
 		<company>Averetek</company>
@@ -38,7 +38,7 @@
 			<end>2014</end>
 		</years>
 		<tags>User Experience, Web Design, Web Development, Marketing, Branding</tags>
-		<description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, fugit.</description>
+		<description>Helped create user-centered designs for the B2B applications supported by Averetek.  Designs included both end-user facing as well as administrator panels.  Created brand unity for the platforms offered by Averetek and generated a company style guide as well as physical branding of the work space.</description>
 	</experience>
 	<experience>
 		<company>f/8.3 photography</company>
@@ -48,6 +48,6 @@
 			<end>2012</end>
 		</years>
 		<tags>Photography, Marketing, Photo Processing</tags>
-		<description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, fugit.</description>
+		<description>Business, brand, marketing, photography, post-processing, videography.  Did it all.</description>
 	</experience>
 </root>

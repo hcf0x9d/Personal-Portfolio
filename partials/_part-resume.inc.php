@@ -18,10 +18,10 @@ function resumeBuilder() {
 		}
 
 		$html = '<li class="employment-item">
-				<div class="col-sm-3 col-xs-4 employment-year">
+				<div class="col-sm-3 col-xs-3 employment-year">
 					<h2 class="subheadline mod-help">'.$yearStart.' - '.$yearEnd.'</h2>
 				</div>
-				<div class="col-sm-9 col-xs-8 employment-info">
+				<div class="col-sm-9 col-xs-9 employment-info">
 					<h2 class="subheadline">'.$company.' <span class="employment-info-title">'.$title.'</span></h2>
 					<ul class="employment-tags">
 						'.$tagHTML.'
@@ -40,42 +40,37 @@ function resumeBuilder() {
 <section id="resume" class="resume container section">
 	<div class="section-marker mod-left shadowMe">Resume</div>
 	<div class="row">
-		<ul class="employment col-md-8">
+		<div class="col-md-4 col-md-push-8">
+			<canvas id="myChart" width="300" height="300"></canvas>
+			<div id="js-legend" class="chart-legend"></div>
+		</div>
+
+		<ul class="employment col-md-8 col-md-pull-4">
 			<?php resumeBuilder(); ?>			
 		</ul>
 
-		<div class="col-md-3">
-			<ul class="skills js-skills">
-				<li class="skills-item" data-percent="0.95"><span class="mod-small-caps">html5/css3</span><span class="skills-item-chart"></span></li>
-				<li class="skills-item" data-percent="0.87"><span class="mod-small-caps">php</span><span class="skills-item-chart"></span></li>
-				<li class="skills-item" data-percent="0.92">User Experience<span class="skills-item-chart"></span></li>
-				<li class="skills-item" data-percent="0.9">javascript<span class="skills-item-chart"></span></li>
-				<li class="skills-item" data-percent="0.82">Branding<span class="skills-item-chart"></span></li>
-				<li class="skills-item" data-percent="0.86">Infographics<span class="skills-item-chart"></span></li>
-				<li class="skills-item" data-percent="0.95">Photography<span class="skills-item-chart"></span></li>
-				<li class="skills-item" data-percent="0.98">Nerf Marksmanship<span class="skills-item-chart"></span></li>
-				
-			</ul>
+		
+	</div>
+	<div class="row">
+		<ul class="col-md-8 col-md-push-2 contact">
+			<li class="contact-item mod-block mod-smaller">Find me:</li>
+			<li class="contact-item"><a href="https://twitter.com/jasonfukura" target="_blank" class="contact-item-target mod-twitter">Twitter</a></li>
+			<li class="contact-item"><a href="https://plus.google.com/+JasonFukura" target="_blank" class="contact-item-target mod-google">Google+</a></li>
+			<li class="contact-item"><a href="https://www.instagram.com/jfukura/" target="_blank" class="contact-item-target mod-instagram">Instagram</a></li>
+			<li class="contact-item"><a href="http://vsco.co/jfukura" target="_blank" class="contact-item-target mod-vsco">VSCO</a></li>
+			<li class="contact-item"><a href="https://www.behance.net/jasonfukura" target="_blank" class="contact-item-target mod-behance">Behance</a></li>
+			<li class="contact-item"><a href="https://linkedin.com/in/jfukura" target="_blank" class="contact-item-target mod-linkedin">LinkedIn</a></li>
+			<li class="contact-item"><a href="https://github.com/jfukura" target="_blank" class="contact-item-target mod-github">GitHub</a></li>
+			<li class="contact-item mod-block"><a href="mailto:jason@jasonfukura.com" class="contact-item-target mod-email">jason@jasonfukura.com</a></li>
+
+		</ul>
+	</div>
+</section>
+
+<footer class="footer container">
+	<div class="row">
+		<div class="col-md-12">
+			<p class="footer-type">&copy; <?php echo date('Y'); ?> Jason Fukura</p>
 		</div>
 	</div>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-</section>
+</footer>

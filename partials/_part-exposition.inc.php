@@ -19,7 +19,7 @@
 	<section class="site-head container">
 		<div class="row">
 			<div class="col-md-7">
-				<img class="site-head-img" src="http://placehold.it/800x500" alt="" height="400">
+				<img class="site-head-img" src="images/jason.jpg" alt="">
 			</div>
 			<div class="col-md-5 col-md-pull-1 js-row-height">
 				<!-- Title Stuff -->

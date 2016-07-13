@@ -86,8 +86,12 @@
 /*---------------*/
 
 figure.effect-roxy {
-	background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
-	background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00fdbb+0,00d39c+100 */
+	background: rgb(0,253,187); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgba(0,253,187,1) 0%, rgba(0,211,156,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  rgba(0,253,187,1) 0%,rgba(0,211,156,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  rgba(0,253,187,1) 0%,rgba(0,211,156,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00fdbb', endColorstr='#00d39c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 figure.effect-roxy img {
@@ -120,7 +124,10 @@ figure.effect-roxy figcaption {
 }
 
 figure.effect-roxy h2 {
-	padding: 30% 2em 10px 2em;
+	padding: 0 2em 0 2em;
+    font: normal 2.25rem/1 $font-pn--bold;
+    position: absolute;
+    bottom: 1.5em;
 }
 
 figure.effect-roxy p {
@@ -132,7 +139,7 @@ figure.effect-roxy p {
 }
 
 figure.effect-roxy:hover img {
-	opacity: 0.7;
+	opacity: 0.5;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }

@@ -2,7 +2,7 @@ $(function () {
 	shadowWalker();
 	rowHeight();
 
-	skillsList();
+	// skillsList();
 
 	$('.sitenav-list-item-target').on('click', function (e) {
 		e.preventDefault();
@@ -20,49 +20,49 @@ $(function () {
 $(window).scroll(function () {
 	shadowWalker();
 
-	skillsList();
+	// skillsList();
 });
 
 
-function skillsList() {
-	'use strict';
+// function skillsList() {
+// 	'use strict';
 
-	var $list = $('.js-skills'),
-		listBottom = $list.offset().top + $list.height() - 20,
-		itemBottom,
-		$window = $(window),
-		windowTop = $window.scrollTop(),
-		windowBottom = windowTop + $window.height(),
-		percent;
+// 	var $list = $('.js-skills'),
+// 		listBottom = $list.offset().top + $list.height() - 20,
+// 		itemBottom,
+// 		$window = $(window),
+// 		windowTop = $window.scrollTop(),
+// 		windowBottom = windowTop + $window.height(),
+// 		percent;
 
-	$('.skills-item').each(function () {
-		itemBottom = $(this).offset().top + $(this).height() + 200;
+// 	$('.skills-item').each(function () {
+// 		itemBottom = $(this).offset().top + $(this).height() + 200;
 
-		if (windowBottom >= itemBottom && !$(this).hasClass('ran')) {
-			percent = $(this).data('percent');
+// 		if (windowBottom >= itemBottom && !$(this).hasClass('ran')) {
+// 			percent = $(this).data('percent');
 
-			$(this).find('.skills-item-chart').animate({
-				width: percent * 100 + '%'
-			}, 750, 'easeOutBack');
+// 			$(this).find('.skills-item-chart').animate({
+// 				width: percent * 100 + '%'
+// 			}, 750, 'easeOutBack');
 
-			$(this).addClass('ran');
-		}
-	});
+// 			$(this).addClass('ran');
+// 		}
+// 	});
 
-	// if (windowBottom >= listBottom && !$list.hasClass('ran')) {
-	// 	$list.find('.skills-item').each(function () {
-	// 		percent = $(this).data('percent');
+// 	// if (windowBottom >= listBottom && !$list.hasClass('ran')) {
+// 	// 	$list.find('.skills-item').each(function () {
+// 	// 		percent = $(this).data('percent');
 
-	// 		$(this).find('.skills-item-chart').animate({
-	// 			width: percent * 100 + '%'
-	// 		}, 500, 'easeOutBack');
-	// 	});
+// 	// 		$(this).find('.skills-item-chart').animate({
+// 	// 			width: percent * 100 + '%'
+// 	// 		}, 500, 'easeOutBack');
+// 	// 	});
 
-	// 	$list.addClass('ran');
-	// }
+// 	// 	$list.addClass('ran');
+// 	// }
 	
 
-}
+// }
 
 function shadowWalker() {
 	'use strict';

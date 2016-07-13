@@ -8,15 +8,25 @@ $font-pn--c-reg:        'ProximaNovaCondensedRegular', sans-serif;
 $font-pn--c-semibold:   'ProximaNovaCondensedSemibold', sans-serif;
 $font-pn--c-bold:       'ProximaNovaCondensedBold', sans-serif;
 
-$color-grayDk:	#5E5E5E;
-$color-gray:		#C1C1C1;
+$color-grayDk:	   #5E5E5E;
+$color-gray:		   #C1C1C1;
 
-$color-green:   #00FDBB;
-$color-greenDk: #00D39C;
+$color-green:      #00FDBB;
+$color-greenDk:    #00D39C;
 
-$color-yellow:  #FDEC00;
+$color-yellow:     #FDEC00;
 
-$color-white:		#F5F5F5;
+$color-white: 		 #F5F5F5;
+
+$color-twitter:    #00aced;
+$color-google:     #dd4b39;
+$color-instagram:  #ff0084;
+$color-dribbble:   #ea4c89;
+$color-vsco:       #ae995a;
+$color-behance:    #1769FF;
+$color-linkedin:   #007bb6;
+$color-github:     #171516;
+$color-email:      #00D39C;
 
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;

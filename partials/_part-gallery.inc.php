@@ -9,11 +9,8 @@ function checkExpiry($id) {
 
         if ($now < $time + $offset) {
             buildApi('cache', $id);
-            return true;
         } else {
             buildApi('api', $id);
-
-            return false;
         }
     } else {
         buildApi('api', $id);
@@ -32,14 +29,11 @@ function buildApi($opt, $id) {
         $api = $api_url.$api_key;
         
         $response = file_get_contents($api);
-
-        // echo 'the response is '.$response;
-        
         file_put_contents('cache/'.$id.'.json', $response);
     }
-    
+
     $json = json_decode(file_get_contents($api));
-            
+    
     foreach($json->projects as $project) {
         $id = $project->id;
         $title = $project->name;
@@ -52,9 +46,8 @@ function buildApi($opt, $id) {
         <figcaption>
             <h2>'.$title.'</h2>
             <p></p>
-            <a href="/project/'.$id.'/'.str_replace(" ", "-", $title).'"
-                data-id="'.$id.'"
-                data-title="'.str_replace(" ", "-", $title).'"
+            <a href="'.$project->url.'"
+                target="_blank"
                 onclick="gaTag(\'Project\', \'View\', \''.$title.'\');">View more</a>
         </figcaption>           
     </figure>

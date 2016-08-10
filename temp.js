@@ -6,7 +6,6 @@
  * jfukura@gmail.com
  */
 
-
 var skillSet = {'javascript': 10, 'html' : 5};
 
 /* ========================================================================== */
@@ -24,6 +23,7 @@ var CapitalOneInvesting = new Employment(2014, 2016, 'Web Developer');
 
 var averetek = new Employment(2014, 2016, 'Lead Creative');
 // In this role, I blah blah blah
+
 
 /* ========================================================================== */
 /* EDUCATION																  */

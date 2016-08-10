@@ -5,9 +5,9 @@
  *
  */
 
+
 // VARIABLES
 $urlBase			= '';
-
 
 // META
 $pageTitle			= '';

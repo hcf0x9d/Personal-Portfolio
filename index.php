@@ -8,6 +8,7 @@
 // VARIABLES
 $urlBase			= '';
 
+
 // META
 $pageTitle			= '';
 $pageDescription	= '';
@@ -17,7 +18,6 @@ $OGTitle			= '';
 $OGDescription		= '';
 $OGUrl				= $urlBase;
 $OGImage			= $urlBase.'';
-
 
 // PHP FUNCTIONS
 // include('includes/functions.inc.php');

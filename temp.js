@@ -9,7 +9,7 @@
 var skillSet = {'javascript': 10, 'html' : 5};
 
 /* ========================================================================== */
-/* PROFESSIONAL EXPERIENCE													  */
+/* PROFESSIONAL EXPERIENCE												      */
 /* ========================================================================== */
 
 var CapitalOneInvesting = new Employment(2014, 2016, 'Design Technologist');

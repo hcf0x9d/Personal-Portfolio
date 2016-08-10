@@ -1,0 +1,70 @@
+/**
+*  Stylesheet
+*
+*  Filename: style.scss
+*  Creator: Jason Fukura
+*
+*/
+
+@charset 'UTF-8';
+
+@import 'https://fonts.googleapis.com/css?family=Ubuntu+Mono';
+
+// Variables
+@import "partials/_definitions.scss";
+@import "partials/_media-queries.scss";
+
+// Utilities
+@import "partials/_normalize.scss";
+
+$color-ui-1 : #ccc;
+
+body{
+	counter-reset: line;
+	font-family: 'Ubuntu Mono', monospace;
+}
+
+.code{
+	
+	&:before{
+		border-right: 1px solid $color-ui-1;
+		content: '';
+		position: absolute;
+		height: 100%;
+		left: 40em;
+		top: 0;
+		z-index: 0;
+	}
+	&:after{
+		border-right: 1px solid $color-ui-1;
+		content: '';
+		position: absolute;
+		height: 100%;
+		left: 60em;
+		top: 0;
+		z-index: 0;
+	}
+
+	&-line{
+		border-left: 1px solid $color-ui-1;
+		margin-left: 3em;
+		padding-left: 0.5em;
+		position: relative;
+
+		&:before{
+			counter-increment: line;
+			content: counter(line);
+			left: 0.25em;
+			margin-left: -3em;
+			position: absolute;
+		}
+	}
+}
+
+.indent{
+	&-1{padding-left: 1em;}
+	&-2{padding-left: 2em;}
+	&-3{padding-left: 3em;}
+	&-4{padding-left: 4em;}
+	&-5{padding-left: 5em;}
+}

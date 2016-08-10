@@ -45,7 +45,20 @@ body{
 		}
 	}
 }
+.contact-item{
 
+	&:hover,
+	&:focus{
+		&.mod-twitter span{color: $color-twitter !important;}
+		&.mod-google span{color: $color-google !important;}
+		&.mod-instagram span{color: $color-instagram !important;}
+		&.mod-vsco span{color: $color-vsco !important;}
+		&.mod-behance span{color: $color-behance !important;}
+		&.mod-linkedin span{color: $color-linkedin !important;}
+		&.mod-github span{color: $color-github !important;}
+		&.mod-email span{color: $color-email !important;}	
+	}
+}
 /*
 
 Atom One Light by Daniel Gamage

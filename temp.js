@@ -38,3 +38,5 @@ if (Date.now() >= 1481788800000) {
 } else {
 	takeCourse('udacity', 'Front-End Developer');
 }
+
+var contact = {'Twitter', 'GitHub', 'Instagram', 'VSCO', 'Behance', 'LinkedIn'}

@@ -101,7 +101,7 @@ function codeGenerator() {
 </head>
 <body>
 	<pre class="code">
-		<?php codeGenerator(); ?><code class="code-line javascript">var contact = ['<a href="https://twitter.com/jasonfukura" target="_blank" class="contact-item mod-twitter">Twitter</a>', '<a href="https://github.com/jfukura" target="_blank" class="contact-item mod-github">GitHub</a>', '<a href="https://www.instagram.com/jfukura/" target="_blank" class="contact-item mod-instagram">Instagram</a>', '<a href="http://vsco.co/jfukura" target="_blank" class="contact-item mod-vsco">VSCO</a>', '<a href="https://www.behance.net/jasonfukura" target="_blank" class="contact-item mod-behance">Behance</a>', '<a href="https://linkedin.com/in/jfukura" target="_blank" class="contact-item mod-linkedin">LinkedIn</a>']</code>
+		<?php codeGenerator(); ?><code class="code-line javascript"> </code><code class="code-line javascript">var contact = ['<a href="https://twitter.com/jasonfukura" target="_blank" class="contact-item mod-twitter">Twitter</a>', '<a href="https://github.com/jfukura" target="_blank" class="contact-item mod-github">GitHub</a>', '<a href="https://www.instagram.com/jfukura/" target="_blank" class="contact-item mod-instagram">Instagram</a>', '<a href="http://vsco.co/jfukura" target="_blank" class="contact-item mod-vsco">VSCO</a>', '<a href="https://www.behance.net/jasonfukura" target="_blank" class="contact-item mod-behance">Behance</a>', '<a href="https://linkedin.com/in/jfukura" target="_blank" class="contact-item mod-linkedin">LinkedIn</a>']</code>
 	</pre>
 	<script src="js/jquery-1.8.2.min.js"></script>
 	<script src="js/highlight.pack.js"></script>

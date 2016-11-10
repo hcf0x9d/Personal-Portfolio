@@ -6,7 +6,7 @@
  * jfukura@gmail.com
  */
 
-var skillSet = {'javascript': 10, 'html' : 5,};
+var skillSet = {'javascript': 10, 'html' : 5};
 
 /* ========================================================================== */
 /* PROFESSIONAL EXPERIENCE												      */
@@ -39,4 +39,4 @@ if (Date.now() >= 1481788800000) {
 	takeCourse('udacity', 'Front-End Developer');
 }
 
-var contact = ['Twitter', 'GitHub', 'Instagram', 'VSCO', 'Behance', 'LinkedIn']
+var contact = {'Twitter', 'GitHub', 'Instagram', 'VSCO', 'Behance', 'LinkedIn'}

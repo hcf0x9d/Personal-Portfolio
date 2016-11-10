@@ -64,6 +64,9 @@ gulp.task('view', function () {
 
 gulp.task('img', function () {
   return gulp.src(config.img.source)
+  .pipe(imagemin({
+    progressive: true,
+  }))
   .pipe(gulp.dest(config.build + config.img.target));
 });
 

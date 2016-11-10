@@ -1,0 +1,120 @@
+.exp {
+
+    &-item {
+        list-style-type: none;
+        margin-bottom: 50px;
+
+        &-title {
+            font-size: 1.25em;
+            font-weight: 100;
+            margin-bottom: 20px;
+
+            & .year {
+                color: $color-grey-1;
+                font-weight: 700;
+            }
+
+            & .company {
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.edu {
+
+    &-item {
+        list-style-type: none;
+        margin-bottom: 50px;
+
+        &-title {
+            font-size: 1.25em;
+            font-weight: 100;
+
+            & .year {
+                color: $color-grey-1;
+                font-weight: 700;
+            }
+
+            & .school {
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.stat {
+    padding-right: 40px;
+
+    &-item {
+        list-style-type: none;
+        margin-bottom: 15px;
+    }
+
+    &-graph {
+        background: $color-grey-1;
+        display: block;
+        height: 10px;
+        width: 100%;
+
+        &-bar {
+            background: $color-grey-4;
+            display: block;
+            height: 10px;
+            width: 0;
+            transition: width 0.8s ease;
+        }
+    }
+
+    &-label {
+
+    }
+}
+
+.socialLinks {
+    display: inline-block;
+
+    &-item {
+        list-style-type: none;
+        display: inline-block;
+        float: left;
+        margin-right: 10px;
+    }
+
+    &-target {
+        color: $color-grey-1;
+        font-size: 1.5em;
+        text-decoration: none;
+        position: relative;
+
+        &:after {
+            opacity: 0;
+            content: '';
+            border-bottom: 20px solid $color-punch;
+            position: absolute;
+            left: -3px;
+            bottom: -4px;
+            width: 100%;
+            z-index: -1;
+            transition: all 0.2s ease;
+        }
+
+        &:hover:after,
+        &:focus:after {
+            opacity: 1;
+        }
+    }
+}
+
+.list {
+    padding-left: 30px;
+}
+
+@include media("<sm") {
+    .avatar {
+        display: none;
+    }
+    .keyimg-wrap {
+        height: 200px;
+    }
+}

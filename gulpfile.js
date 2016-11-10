@@ -26,6 +26,18 @@ var config      = {
     "js": {
         "source": "js/*",
         "target": "/js"
+    },
+    "fonts": {
+        "source": "fonts/*",
+        "target": "/fonts"
+    },
+    "img": {
+        "source": "img/*",
+        "target": "/img"
+    },
+    "view": {
+        "source": "view/*",
+        "target": "/view"
     }
   },
   site        = '',
@@ -40,10 +52,24 @@ gulp.task('css', function () {
 
 gulp.task('html', function () {
   return gulp.src(config.html.source)
-  .pipe(inline())
   .pipe(htmlmin({collapseWhitespace: true}))
-  .pipe(minline())
   .pipe(gulp.dest(config.build + config.html.target));
+});
+
+gulp.task('view', function () {
+  return gulp.src(config.view.source)
+  .pipe(htmlmin({collapseWhitespace: true}))
+  .pipe(gulp.dest(config.build + config.view.target));
+});
+
+gulp.task('img', function () {
+  return gulp.src(config.img.source)
+  .pipe(gulp.dest(config.build + config.img.target));
+});
+
+gulp.task('fonts', function () {
+  return gulp.src(config.fonts.source)
+  .pipe(gulp.dest(config.build + config.fonts.target));
 });
 
 gulp.task('js', function () {
@@ -52,7 +78,7 @@ gulp.task('js', function () {
   .pipe(gulp.dest(config.build + config.js.target));
 });
 
-gulp.task('build', ['html','css','js']);
+gulp.task('build', ['html','css','js','view','img','fonts']);
 
 gulp.task('ngrok-url', function(cb) {
   return ngrok.connect(portVal, function (err, url) {
@@ -113,7 +139,7 @@ gulp.task('serve', function() {
     //       will present a certificate warning in the browser.
     // https: true,
     server: {
-      baseDir: "./"
+      baseDir: "dist/"
     }
   });
 

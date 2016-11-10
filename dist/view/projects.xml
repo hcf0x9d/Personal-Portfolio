@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<projects>
-    <project id="disclaiminator">
-        <title>Disclaiminator</title>
-        <headline>
-            Single-page web app built on Object Oriented JavaScript in
-            an MVC design pattern
-        </headline>
-        <content>
-            <![CDATA[
+<?xml version="1.0" encoding="UTF-8"?> <projects><project id="disclaiminator"><title>Disclaiminator</title><headline>Single-page web app built on Object Oriented JavaScript in an MVC design pattern</headline><content><![CDATA[
                 <p>
                     The Disclaiminator is a project for Capital One Investing that allows all of the line of business'
                     marketing disclosures to be housed in a single location.  This makes updating disclosures on all
@@ -26,10 +16,7 @@
                     While I initially made an effort to build this application as an Angular app, I instead opted to just
                     develop it as an Object Oriented jQuery web application.
                 </p>
-            ]]>
-        </content>
-        <aside>
-            <![CDATA[
+            ]]></content><aside><![CDATA[
                 <p><b>Key Skills</b></p>
                 <ul class="list">
                     <li>OOP</li>
@@ -38,20 +25,7 @@
                     <li>jQuery</li>
                     <li>HTML5/CSS3</li>
                 </ul>
-            ]]>
-        </aside>
-        <images key="img/disclaiminator-color.jpg">
-            <!-- <image>img/mp-userflow.jpg</image> -->
-        </images>
-    </project>
-    <project id="kellyhoppen">
-        <title>Kelly Hoppen Landing Page</title>
-        <headline>
-            Marketing landing page designed for Kelly Hoppen for apaiser during
-            the launch of the new product line.
-        </headline>
-        <content>
-            <![CDATA[
+            ]]></aside><images key="img/disclaiminator-color.jpg"><!-- <image>img/mp-userflow.jpg</image> --></images></project><project id="kellyhoppen"><title>Kelly Hoppen Landing Page</title><headline>Marketing landing page designed for Kelly Hoppen for apaiser during the launch of the new product line.</headline><content><![CDATA[
                 <p>
                     This landing page was designed and developed by me within a short turn-around window for apaiser.
                     The page and associated email campaign (also designed by me) were to launch at the same time as a
@@ -60,10 +34,7 @@
                 <p>
                     The project, though rushed, was well received and overall, a great success.
                 </p>
-            ]]>
-        </content>
-        <aside>
-            <![CDATA[
+            ]]></content><aside><![CDATA[
                 <p><b>Key Skills</b></p>
                 <ul class="list">
                     <li>Web Development</li>
@@ -72,19 +43,7 @@
                     <li>jQuery</li>
                     <li>HTML5/CSS3</li>
                 </ul>
-            ]]>
-        </aside>
-        <images key="img/hoppen-color.jpg">
-            <!-- <image>img/mp-userflow.jpg</image> -->
-        </images>
-    </project>
-    <project id="musicprodigy">
-        <title>Music Prodigy User Flows</title>
-        <headline>
-            User Experience design, not "wireframe design."
-        </headline>
-        <content>
-            <![CDATA[
+            ]]></aside><images key="img/hoppen-color.jpg"><!-- <image>img/mp-userflow.jpg</image> --></images></project><project id="musicprodigy"><title>Music Prodigy User Flows</title><headline>User Experience design, not "wireframe design."</headline><content><![CDATA[
                 <p>
                     The Music Prodigy App was perpetually in a state of "MVP" (Minimum Viable Product), which led to many
                     User Experience challenges, since each new feature was simply tacked on without considering the overall
@@ -101,10 +60,7 @@
                     An advantage I have over many UX designers is that I can also quickly prototype in code, and not just
                     garbage code, but JavaScript that can then be reused in the final application.
                 </p>
-            ]]>
-        </content>
-        <aside>
-            <![CDATA[
+            ]]></content><aside><![CDATA[
                 <p><b>Key Skills</b></p>
                 <ul class="list">
                     <li>User Experience</li>
@@ -113,29 +69,13 @@
                     <li>Design</li>
                     <li>Prototyping</li>
                 </ul>
-            ]]>
-        </aside>
-        <images key="img/mp-userflow-color.jpg">
-            <!-- <image>img/mp-userflow.jpg</image> -->
-        </images>
-    </project>
-    <project id="photography">
-        <title>Photography</title>
-        <headline>
-            I have worked in various photography fields: from product and food to
-            weddings and portraits.
-        </headline>
-        <content>
-            <![CDATA[
+            ]]></aside><images key="img/mp-userflow-color.jpg"><!-- <image>img/mp-userflow.jpg</image> --></images></project><project id="photography"><title>Photography</title><headline>I have worked in various photography fields: from product and food to weddings and portraits.</headline><content><![CDATA[
                 <p>
                     As the owner of f/8.3 photography, I worked primarily in the wedding industry, although I was also
                     able to work in product photography for jewelry and food as well.  I also have experience working in
                     lifestyle portraits, studio photography and headshots.
                 </p>
-            ]]>
-        </content>
-        <aside>
-            <![CDATA[
+            ]]></content><aside><![CDATA[
                 <p><b>Key Skills</b></p>
                 <ul class="list">
                     <li>Photography</li>
@@ -144,10 +84,4 @@
                     <li>Lightroom</li>
                     <li>Studio Management</li>
                 </ul>
-            ]]>
-        </aside>
-        <images key="img/ivoryjack-color.jpg">
-            <!-- <image>img/mp-userflow.jpg</image> -->
-        </images>
-    </project>
-</projects>
+            ]]></aside><images key="img/ivoryjack-color.jpg"><!-- <image>img/mp-userflow.jpg</image> --></images></project></projects>

@@ -40,7 +40,7 @@ var config      = {
         "target": "/view"
     }
   },
-  site        = '',
+  site        = '/dist/',
   portVal     = 3000;
 
 
@@ -85,7 +85,7 @@ gulp.task('build', ['html','css','js','view','img','fonts']);
 
 gulp.task('ngrok-url', function(cb) {
   return ngrok.connect(portVal, function (err, url) {
-    site = url + '/dist/';
+    site = url;
     console.log('serving your tunnel from: ' + site);
     cb();
   });

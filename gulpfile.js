@@ -28,7 +28,7 @@ var config      = {
         "target": "/js"
     },
     "fonts": {
-        "source": "fonts/*",
+        "source": "fonts/**/*",
         "target": "/fonts"
     },
     "img": {

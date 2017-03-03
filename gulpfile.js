@@ -36,7 +36,11 @@ var config      = {
         "target": "/img"
     },
     "view": {
-        "source": "view/*",
+        "source": "view/*.html",
+        "target": "/view"
+    },
+    "project": {
+        "source": "view/*.xml",
         "target": "/view"
     }
   },
@@ -62,6 +66,11 @@ gulp.task('view', function () {
   .pipe(gulp.dest(config.build + config.view.target));
 });
 
+gulp.task('project', function () {
+  return gulp.src(config.project.source)
+  .pipe(gulp.dest(config.build + config.project.target));
+});
+
 gulp.task('img', function () {
   return gulp.src(config.img.source)
   .pipe(imagemin({
@@ -81,7 +90,7 @@ gulp.task('js', function () {
   .pipe(gulp.dest(config.build + config.js.target));
 });
 
-gulp.task('build', ['html','css','js','view','img','fonts', 'psi-seq']);
+gulp.task('build', ['html','css','js','view','project','img','fonts', 'psi-seq']);
 
 gulp.task('ngrok-url', function(cb) {
   return ngrok.connect(portVal, function (err, url) {
@@ -142,7 +151,7 @@ gulp.task('serve', function() {
     //       will present a certificate warning in the browser.
     // https: true,
     server: {
-      baseDir: "dist/"
+      baseDir: "./"
     }
   });
 

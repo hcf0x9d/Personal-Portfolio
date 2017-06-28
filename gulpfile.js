@@ -5,7 +5,7 @@ var gulp        = require('gulp'),
     htmlmin     = require('gulp-htmlmin'),
     inline      = require('gulp-inline'),
     minline     = require('gulp-minify-inline'),
-    // uglify      = require('gulp-uglify'),
+    uglify      = require('gulp-uglify'),
     browserSync = require('browser-sync'),
     reload      = browserSync.reload,
     serve       = require('gulp-serve'),
@@ -36,7 +36,11 @@ var config      = {
         "target": "/img"
     },
     "view": {
-        "source": "view/*",
+        "source": "view/*.html",
+        "target": "/view"
+    },
+    "project": {
+        "source": "view/*.xml",
         "target": "/view"
     }
   },
@@ -52,14 +56,19 @@ gulp.task('css', function () {
 
 gulp.task('html', function () {
   return gulp.src(config.html.source)
-  .pipe(htmlmin({collapseWhitespace: true}))
+  .pipe(htmlmin({collapseWhitespace: true, minifyJS: true, removeComments: true}))
   .pipe(gulp.dest(config.build + config.html.target));
 });
 
 gulp.task('view', function () {
   return gulp.src(config.view.source)
-  .pipe(htmlmin({collapseWhitespace: true}))
+  .pipe(htmlmin({collapseWhitespace: true, minifyJS: true, removeComments: true}))
   .pipe(gulp.dest(config.build + config.view.target));
+});
+
+gulp.task('project', function () {
+  return gulp.src(config.project.source)
+  .pipe(gulp.dest(config.build + config.project.target));
 });
 
 gulp.task('img', function () {
@@ -77,11 +86,11 @@ gulp.task('fonts', function () {
 
 gulp.task('js', function () {
   return gulp.src(config.js.source)
-  // .pipe(uglify())
+  .pipe(uglify())
   .pipe(gulp.dest(config.build + config.js.target));
 });
 
-gulp.task('build', ['html','css','js','view','img','fonts']);
+gulp.task('build', ['html','css','js','view','project','img','fonts', 'psi-seq']);
 
 gulp.task('ngrok-url', function(cb) {
   return ngrok.connect(portVal, function (err, url) {
@@ -142,7 +151,7 @@ gulp.task('serve', function() {
     //       will present a certificate warning in the browser.
     // https: true,
     server: {
-      baseDir: "dist/"
+      baseDir: "./"
     }
   });
 

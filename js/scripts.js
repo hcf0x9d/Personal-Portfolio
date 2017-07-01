@@ -114,7 +114,11 @@ var control = {
             $('.menu').toggleClass('is-active');
         });
         $('.menu-target').on('click', function (event) {
+            event.preventDefault();
+            
             model.view = $(this).attr('href').replace('#', '');
+            history.pushState( null, null, '/' + model.view );
+            
             control.view.change(model.view);
         });
     },

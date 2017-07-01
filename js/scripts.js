@@ -10,7 +10,6 @@ var control = {
             model.view = window.location.hash.substr(1).split('=')[0];
         } else {
             model.view = 'intro';
-            window.location.hash = '#intro';
         }
 
         control.view.change(model.view);
@@ -115,10 +114,10 @@ var control = {
         });
         $('.menu-target').on('click', function (event) {
             event.preventDefault();
-            
+
             model.view = $(this).attr('href').replace('#', '');
             history.pushState( null, null, '/' + model.view );
-            
+
             control.view.change(model.view);
         });
     },

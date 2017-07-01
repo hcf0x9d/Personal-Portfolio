@@ -76,7 +76,6 @@ var control = {
             }
         },
         getProject: function (proj, cb) {
-
             $.ajax('view/projects.xml')
                 .success(function (xml) {
                     var node = $(xml).find('project[id="' + proj + '"]');

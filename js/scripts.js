@@ -165,7 +165,7 @@ var model = {
                 event.preventDefault();
 
                 model.view = $( this ).attr( 'href' ).replace( '#', '' );
-                history.pushState( null, null, '/' + model.view );
+                history.pushState( null, null, '/#' + model.view );
 
                 control.view.change( model.view );
 
